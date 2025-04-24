@@ -23,7 +23,7 @@
             <div class="collapse navbar-collapse ms-0 ms-md-5" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0 gap-2">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href=".">
+                        <a class="nav-link active" aria-current="page" wire:navigate href="{{ route('dashboard') }}">
                             <i class="bx bx-home"></i> Dashboard
                         </a>
                     </li>
@@ -33,7 +33,7 @@
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="posisi-pekerjaan.html">
+                        <a class="nav-link" wire:navigate href="{{ route('posisi-kerja.index') }}">
                             <i class='bx bx-objects-horizontal-left'></i> Posisi Pekerjaan
                         </a>
                     </li>
